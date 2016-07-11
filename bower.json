@@ -2,7 +2,8 @@
   "name": "test4",
   "version": "0.0.1",
   "main": [
-    "dist/test4.js","dist/test4.css"
+    "dist/test4.js",
+    "dist/test4.css"
   ],
   "niceComponent": true,
   "dependencies": {
@@ -12,8 +13,15 @@
     "angular-translate": "2.10.0",
     "angular-translate-loader-static-files": "2.10.0",
     "angular-translate-handler-log": "2.10.0"
-
   },
-  "devDependencies": {
-  }
+  "devDependencies": {},
+  "authors": [
+    "ortalla <ortal.lagziel@nice.com>"
+  ],
+  "description": "",
+  "keywords": [
+    "op"
+  ],
+  "license": "MIT",
+  "homepage": ""
 }
