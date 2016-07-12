@@ -1,15 +1,10 @@
 angular.module('test4module', ['templates-test4', 'pascalprecht.translate' ])
-.config(function($translateProvider) {
-    'use strict';
-
   .directive('test4', function($translate ) {
     'use strict';
-
-   
+//dd
     var controller = function ($scope, $element) {
-      $scope.name = "ortal";
+      $scope.name = "ortal"
     };
-
     return {
       restrict: 'EAC',
       scope: {
